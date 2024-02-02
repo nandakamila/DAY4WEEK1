@@ -8,7 +8,6 @@ function getTrianglePattern(height){
 
     for(let i=1;i<=height;i++){
         let row='';
-
         for(let j=1;j<=i;j++){
              row+= (number < 10 ? "0" : "") + number + " ";
              number++;
@@ -25,11 +24,9 @@ getTrianglePattern(5);
 
 function getFizzBuzz(n) {
     let result = [];
-
     for (let i = 1; i <= n; i++) {
         result.push((i % 3 === 0 ? 'Fizz' : '') + (i % 5 === 0 ? 'Buzz' : '') || i.toString());
     }
-
     return result.join(", ");
 }
 
@@ -42,7 +39,6 @@ console.log(getFizzBuzz(15));
 
 function getBMI(weight, height) {
     const bmi = weight / height ** 2;
-    
     return bmi < 18.5 ? "Less Weight" :
            bmi <= 24.9 ? "Ideal" :
            bmi <= 29.9 ? "Overweight" :
