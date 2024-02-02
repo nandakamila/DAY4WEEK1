@@ -8,10 +8,9 @@
                  4st row -> 7 8 9 10 (4 item)
 */
 
-//Create a variable for the counting the number;
-
 //Create a function with the parameter height 
 function getTrianglePattern(height){
+  //Create a variable for the counting the number;
   let number=1;
 
   //Create a loop to print row 
