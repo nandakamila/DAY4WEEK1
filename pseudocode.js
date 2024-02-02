@@ -1,4 +1,3 @@
-
 /*
 1. Problem     : Create a function that can create a triangle pattern according to the height 
    Parameters  : height → triangle height
