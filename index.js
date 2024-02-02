@@ -1,4 +1,3 @@
-
 /*
 1. Create a function that can create a triangle pattern according to the height 
 */
